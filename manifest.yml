@@ -1,0 +1,6 @@
+---
+applications:
+- name: openstackday2017
+  memory: 256M
+  services:
+  - k5-iaas-mongo-db

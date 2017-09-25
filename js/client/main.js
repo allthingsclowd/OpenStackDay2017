@@ -14,6 +14,6 @@ if (screen.width > 1500) {
 
 game.state.add('Home',Home);
 game.state.add('Game',Game);
-game.state.add('K5Title',K5Title);
-game.state.start('K5Title');
+// game.state.add('K5Title',K5Title);
+game.state.start('Home');
 

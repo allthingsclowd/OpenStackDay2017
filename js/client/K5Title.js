@@ -3,13 +3,13 @@ var K5Title = {
     preload: function () {
 
         game.load.spritesheet("buttons", "/assets/sprites/buttons.png", 265, 75);
-        game.load.spritesheet("fjlogo", "/assets/sprites/fjlogo.png", 241, 122);
+        game.load.spritesheet("logo", "/assets/sprites/wood.png", 241, 122);
         game.load.spritesheet("dragon", "/assets/sprites/dragon.png", 120, 85, 4);
         
     },
 
     create: function () {
-        this.companyBranding = game.add.sprite(game.world.centerX, game.world.centerY -50, "fjlogo");
+        this.companyBranding = game.add.sprite(game.world.centerX, game.world.centerY -50, "logo");
         this.companyBranding.anchor.set(0.5, 0.5);
 
         this.buttonStart = game.add.button(game.world.centerX, game.world.centerY + 200, "buttons", this.startGame, this, 6, 7, 6);

@@ -47,7 +47,7 @@ Home.displayHomeScroll = function(){
 };
 
 Home.displayLogo = function(){
-    Home.logo = game.add.sprite(0, 20, 'atlas1', 'wood');
+    Home.logo = game.add.sprite(0, 20, 'atlas1', 'logo');
     Home.logo.anchor.set(0.5,0);
     Home.logo.x = game.width/2;
     Home.logo.hideTween = game.add.tween(Home.logo);
